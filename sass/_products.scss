@@ -1,0 +1,65 @@
+.promotion__left-card{
+    background-color: #FFF;
+    max-width: 292px;
+    width: 100%;
+    padding: 20px 18px;
+    border-radius: 8px;
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+        input{
+            padding: 20px;
+            border: none;
+            background-color: #f2f2f2;
+            border-radius: 8px;
+            outline: none;
+            &::placeholder{
+                color: #0000005c;
+            font-family: "Fira Sans";
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            }
+        }
+
+        button{
+            padding: 10px;
+            background-color: #FFF;
+        }
+    }
+    button{
+        padding: 20px;
+        background-color: #f2f2f2;
+        width: 100%;
+        border: none;
+        margin-top: 38px;
+        cursor: pointer;
+        color: #000;
+        font-family: "Fira Sans";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+
+.promotion__flex{
+    display: flex;
+    align-items: flex-start;
+}
+
+.money{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.slidecontainer{
+    margin: 25px 0;
+    input{
+        width: 100%;
+    }
+}

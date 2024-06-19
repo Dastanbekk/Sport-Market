@@ -1,0 +1,45 @@
+.promotion__right-card{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px 50px;
+    background-color: #FFF;
+    border-radius: 8px;
+
+    h3{
+        color: #000;
+        font-family: "Fira Sans";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    p{
+        color: #000;
+        font-family: "Fira Sans";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        max-width: 600px;
+        line-height: 140%; /* 22.4px */
+    }
+
+    .right__card-links{
+        display: flex;
+        justify-content: flex-end;
+        gap: 20px;
+        
+    }
+}
+
+.promotion__left-card{
+    padding-bottom: 200px;
+    h3{
+        margin-top: 20px;
+    }
+}
+
+.promotion__flex{
+    display: flex;
+    gap: 40px;
+}
