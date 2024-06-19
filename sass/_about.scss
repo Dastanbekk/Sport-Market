@@ -1,0 +1,57 @@
+.about{
+    padding-bottom: 80px;
+    background-color: #F2F2F2;
+
+    &__title{
+        color: var(--, #1F1D14);
+        font-family: "Fira Sans";
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    &__info{
+        margin-top: 30px;
+        background-color: #1F1D14;
+        color: #FFF;
+        display: flex;
+        justify-content: space-between;
+        padding: 70px 80px;
+        border-radius: 8px;
+        p{
+            max-width: 719px;
+            width: 100%;
+            color: var(--white, #FFF);
+            font-family: "SF Pro Display";
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 28px; /* 140% */
+            a{
+                color: var(--white, #FFF);
+                font-family: "SF Pro Display";
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 28px;
+                text-decoration: underline; 
+            }
+        }
+        img{
+            margin-top: 259px;
+        }
+
+        
+    }
+    &__sponsors{
+        margin-top: 81px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 108px;
+        background-color: #FFF;
+        padding: 40px 46px;
+        width: 100%;
+    }
+}

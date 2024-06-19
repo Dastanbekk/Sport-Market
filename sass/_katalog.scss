@@ -1,0 +1,59 @@
+@import './mixins';
+
+.katalog{
+    padding-top: 19px;
+    padding-bottom: 80px;
+    background-color: #FFF;
+
+    &__title{
+        color: var(--, #1F1D14);
+        font-family: "Fira Sans";
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    &__cards{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+        margin-top: 31px;
+    }
+
+    &__card{
+        max-width: 187px;
+        width: 100%;
+        background-color:#D3E5F2;
+        padding: 25px 0 36px 20px;
+
+        h3{
+            color: #000;
+            font-family: "Fira Sans";
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        img{
+            margin-top: 60px;
+        }
+    }
+
+    &__card:nth-child(2){
+        background-color: #E2C6BE   ;
+    }
+
+    &__card:nth-child(4){
+        background-color: #E2EEC0   ;
+    }
+
+    &__card:nth-child(5){
+        background-color: #C2BCE8   ;
+    }
+    &__card:nth-child(6){
+        background-color: #ABA520   ;
+    }
+
+}
+

@@ -1,0 +1,85 @@
+.usefuls{
+    padding-bottom: 80px;
+    background-color: #F2F2F2;
+    &__title{
+        color: var(--, #1F1D14);
+        font-family: "Fira Sans";
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    &__card{
+        margin-top: 31px;
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+        flex-wrap: wrap;
+    }
+
+    &__left{
+        max-width: 600px;
+        width: 100%;
+        background-color: #FFF;
+        padding: 38px 0 45px 35px;
+        border-radius: 8px;
+        h3{
+            color: var(--, #1F1D14);
+            font-family: "Fira Sans";
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+        p{
+            margin-top: 10px;
+            max-width: 450px;
+            color: #000;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 22px; /* 137.5% */
+        }
+
+        &-bottom{
+            margin-top: 124px;
+            display: flex;
+            gap: 30px;
+            p{
+                display: flex;
+                align-items: center;
+                gap: 5px;
+            }
+        }
+    }
+
+    &__right{
+        max-width: 608px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        &-card{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            background-color: #FFF;
+            padding: 25px 0;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+        button{
+            border-radius: 8px;
+            padding: 15px 0;
+            background-color: #FFF;
+            border: none;
+            color: #000;
+            font-family: "Fira Sans";
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 22px; /* 137.5% */
+        }
+    }
+}
